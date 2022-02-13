@@ -13,9 +13,9 @@ Using Postman to feed the apis.
 
 ## Steps to run this project:
 
-1.Run npm install command
-2.Setup database settings inside ormconfig.json file
-3.Run npm start command
+1.Run npm install command<br>
+2.Setup database settings inside ormconfig.json file<br>
+3.Run npm start command<br>
 
 ## License
 [MIT License](http://opensource.org/licenses/MIT).
