@@ -1,11 +1,11 @@
 # Gusto & RemoteTeam Node.js Bootcamp Final Project 
 
 ## Description
-This assignment includes of apis how to Authentication of users with Typescript, TypeOrm Express, Mysql, Bcrypt, JWT, etc.
-Main purpose of this assignment are entegration of:
-MySQL for database
-Typeorm for ORM tool
-Google and Facebook Auth for Login
+This assignment includes of apis how to Authentication of users with Typescript, TypeOrm Express, Mysql, Bcrypt, JWT, etc.<br>
+Main purpose of this assignment are entegration of:<br>
+MySQL for database<br>
+Typeorm for ORM tool<br>
+Google and Facebook Auth for Login<br>
 
 ## Available Scripts
 
