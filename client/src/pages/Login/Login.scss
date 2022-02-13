@@ -1,0 +1,22 @@
+#login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #login-form {
+      width: 400px;
+
+      .kep-login-facebook {
+        padding: 0.375rem 0.75rem;
+        width: 100%;
+      }
+    }
+  }
+}
