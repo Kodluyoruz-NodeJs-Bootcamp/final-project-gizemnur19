@@ -29,6 +29,7 @@ export default class ProfilePage extends React.Component<{
       title: 'Id',
       dataIndex: 'id',
       key: 'id',
+      hidden: true
     },
     {
       title: 'Movie Name',
@@ -58,13 +59,14 @@ export default class ProfilePage extends React.Component<{
       key: "delete",
       render: (text: any, movie: any) => <Button type="primary" onClick={() => this.handleClickDeleteMovie(movie.id)}>Delete</Button>
     }
-  ];
+  ].filter(item => !item.hidden);
 
   private columnsForPlayers = [
     {
       title: 'Id',
       dataIndex: 'id',
       key: 'playerId',
+      hidden: true
     },
     {
       title: 'Actor Name',
@@ -89,7 +91,7 @@ export default class ProfilePage extends React.Component<{
       key: "deletePlayer",
       render: (text: any, player: any) => <Button type="primary" onClick={() => this.handleClickDeletePlayer(player.id)}>Delete</Button>
     }
-  ];
+  ].filter(item => !item.hidden);
 
   state = {
     // for movie list
