@@ -22,7 +22,7 @@ export class MovieReview extends BaseEntity {
   reviewDescp: string;
 
   @Column()
-  @Length(4, 20)
+  @Length(4, 50)
   username: string;
 
   @Column()

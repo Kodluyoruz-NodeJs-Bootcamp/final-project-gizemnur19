@@ -14,12 +14,12 @@ export class Movie extends BaseEntity {
   id: number;
 
   @Column()
-  @Length(4, 200)
+  @Length(3, 200)
   movieName: string;
 
   @Column()
   @IsNotEmpty()
-  @Length(4, 20)
+  @Length(3, 20)
   category: string;
 
   @Column()

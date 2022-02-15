@@ -25,7 +25,7 @@ export class User extends BaseEntity {
   lastName: string;
 
   @Column()
-  @Length(4, 25)
+  @Length(4, 50)
   username: string;
 
   @Column()
